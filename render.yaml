@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: telegram-publicador
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    plan: free
